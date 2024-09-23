@@ -55,6 +55,9 @@ body{
     height: 80%;
     overflow-y: scroll;
 }
+.my-task::-webkit-scrollbar {
+    display: none;
+  }
 .my-task-heading{
     width: 100%;
     text-align: center;
@@ -63,6 +66,8 @@ body{
     padding: 6px;
     border-radius: 2px;
     color: white ;
+    position: sticky;
+    top: 0;
 
 }
 .task-input{
@@ -162,6 +167,9 @@ footer{
 
 .clip{
     overflow: hidden;
+}
+.edit:hover{
+    cursor: pointer;
 }
 
 
