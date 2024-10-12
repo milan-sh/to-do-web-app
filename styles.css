@@ -189,7 +189,7 @@ footer{
 }
 
 
-@media(max-width:500px){
+@media(max-width:768px){
     .add-task{
         height: 15%;
         width: 100%;
